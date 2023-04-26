@@ -42,7 +42,7 @@ const questions = [
   },
   {
     //email address
-    type: 'email',
+    type: 'input',
     name: 'email',
     message: 'What is your email address if someone has questions?'
   },
@@ -50,7 +50,8 @@ const questions = [
     //license selector
     type: 'checkbox',
     name: 'license',
-    message: 'What license does the project use?'
+    message: 'What license does the project use?',
+    choices: ['Apache', 'Boost', 'MIT', 'Mozilla']
   },
   {
     //GitHub username
