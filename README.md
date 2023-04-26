@@ -5,6 +5,9 @@
 ## Description
 
   This application generates readmes
+  
+## Video
+[![Watch the video](https://drive.google.com/file/d/1LbL0Qk0fqZgLO67YUX7eF6_Hn7QtMJdT/view)
 
 ## Table of Contents
 
