@@ -13,9 +13,49 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//* Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+${renderLicenseBadge(data.license)}
+
+## Description
+
+  ${data.description}
+
+## Table of Contents
+
+## Installation
+
+To install necessary dependencies, run the following command: 
+\`\`\`bash
+${data.installation}
+\`\`\`
+
+## Usage
+
+${data.usage}
+
+## License
+
+This project is licensed under the ${data.license} license.
+
+## Contributing
+
+${data.contribution}
+
+## Tests
+
+to run tests, run the following command:
+\`\`\`bash
+${data.tests}
+\`\`\`
+
+## Questions
+
+if you have any questions about the repo, open an issue or contact me at ${data.email}. You can find more of my work at: [${data.github}](https://github.com/${data.github})
+
+
 
 `;
 }

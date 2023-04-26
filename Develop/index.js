@@ -22,7 +22,7 @@ const questions = [
     //installation instructions
     type: 'input',
     name: 'installation',
-    message: 'What is the installation instructions of the README.md file?'
+    message: 'What is the command to install the necessary dependencies?'
   },
   {
     //usage information
@@ -40,7 +40,7 @@ const questions = [
     //test instructions
     type: 'input',
     name: 'tests',
-    message: 'What is the test instructions of the README.md file?'
+    message: 'What is the test command?'
   },
   {
     //email address
@@ -50,7 +50,7 @@ const questions = [
   },
   {
     //license selector
-    type: 'checkbox',
+    type: 'list',
     name: 'license',
     message: 'What license does the project use?',
     choices: ['Apache', 'Boost', 'MIT', 'Mozilla']
@@ -79,6 +79,7 @@ function writeToFile(fileName, data) {
 //* Create a function to initialize app
 async function init() {
   const data = await inquirer.prompt(questions);
+  console.log(data.license)
   const markdown = genMark.generateMarkdown(data);
   writeToFile('README.md', markdown);
 }
