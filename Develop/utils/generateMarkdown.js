@@ -30,12 +30,13 @@ ${renderLicenseBadge(data.license)}
 3. [Usage](#usage)
 4. [License](#license)
 5. [Contributing](#contributing)
-6. [Tests](#Tests)
+6. [Tests](#tests)
 7. [Questions](#questions)
 
 ## Installation
 
-To install necessary dependencies, run the following command: 
+To install necessary dependencies, run the following command:
+
 \`\`\`bash
 ${data.installation}
 \`\`\`
@@ -55,6 +56,7 @@ ${data.contribution}
 ## Tests
 
 to run tests, run the following command:
+
 \`\`\`bash
 ${data.tests}
 \`\`\`
@@ -62,8 +64,6 @@ ${data.tests}
 ## Questions
 
 if you have any questions about the repo, open an issue or contact me at ${data.email}. You can find more of my work at: [${data.github}](https://github.com/${data.github})
-
-
 
 `;
 }

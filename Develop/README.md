@@ -1,23 +1,32 @@
-# hfjkdsla
+# README Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-  fhjdksla
+  This application generates readmes
 
 ## Table of Contents
 
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Questions](#questions)
+
 ## Installation
 
-To install necessary dependencies, run the following command: 
+To install necessary dependencies, run the following command:
+
 ```bash
-fhjdskl
+npm i
 ```
 
 ## Usage
 
-fhjkdsal
+It uses inquirer
 
 ## License
 
@@ -25,18 +34,17 @@ This project is licensed under the MIT license.
 
 ## Contributing
 
-hfjkdsla
+This is an open source project
 
 ## Tests
 
 to run tests, run the following command:
+
 ```bash
-hfjkdsla
+npm test
 ```
 
 ## Questions
 
-if you have any questions about the repo, open an issue or contact me at fhjkdsal. You can find more of my work at: [fjklds;a](https://github.com/fjklds;a)
-
-
+if you have any questions about the repo, open an issue or contact me at octocat@github.com. You can find more of my work at: [octocat](https://github.com/octocat)
 
