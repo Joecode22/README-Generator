@@ -41,14 +41,13 @@ const questions = [
     message: 'What is the test instructions of the README.md file?'
   },
   {
-    // WHEN I enter my email address
-    
+    //email address
     type: 'email',
     name: 'email',
     message: 'What is your email address if someone has questions?'
   },
   {
-    //License selector
+    //license selector
     type: 'checkbox',
     name: 'license',
     message: 'What license does the project use?'
