@@ -1,6 +1,8 @@
 //* Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+//require exported functions from another file
+const genMark = require('./utils/generateMarkdown');
 
 //* Create an array of questions for user input
 const questions = [
@@ -74,8 +76,12 @@ function writeToFile(fileName, data) {
   });
 }
 
-// TODO: Create a function to initialize app
-function init() {}
+//* Create a function to initialize app
+async function init() {
+  const data = await inquirer.prompt(questions);
+  const markdown = genMark.generateMarkdown(data);
+  writeToFile('README.md', markdown);
+}
 
 // Function call to initialize app
 init();
