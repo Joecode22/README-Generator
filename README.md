@@ -6,19 +6,20 @@
 
   This application generates readmes
   
-## Video
-
-https://user-images.githubusercontent.com/93625431/234737506-2dc0537f-8458-4c4d-bdd9-21689f12af58.mp4
-
 ## Table of Contents
 
 1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Contributing](#contributing)
-6. [Tests](#tests)
-7. [Questions](#questions)
+2. [Video](#video)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Contributing](#contributing)
+7. [Tests](#tests)
+8. [Questions](#questions)
+
+## Video
+
+https://user-images.githubusercontent.com/93625431/234737506-2dc0537f-8458-4c4d-bdd9-21689f12af58.mp4
 
 ## Installation
 
