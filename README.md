@@ -7,7 +7,8 @@
   This application generates readmes
   
 ## Video
-[![Watch the video](https://drive.google.com/file/d/1LbL0Qk0fqZgLO67YUX7eF6_Hn7QtMJdT/view)
+
+https://user-images.githubusercontent.com/93625431/234730613-5ba4d5eb-c3e7-49c2-9f9f-cdb86a0c20a4.mp4
 
 ## Table of Contents
 
